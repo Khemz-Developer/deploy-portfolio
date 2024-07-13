@@ -7,7 +7,7 @@ import Resume from "./components/resume/Resume";
 import Contact from "./components/contact/Contact";
 import AboutMe from "./components/about me/AboutMe";
 import Footer from "./components/footer/Footer";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import ProjectDetails from "./components/Projects/ProjectDetails";
 
 function Home() {
@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="w-full h-auto bg-bodyColor text-lightText ">
       <div className="max-w-screen-xl px-16 mx-auto">
-        <BrowserRouter>
+        < HashRouter>
           <Routes>
             <Route path="/" element={<Home />} />
             {/* Add other routes here if needed */}
@@ -37,7 +37,7 @@ function App() {
             
             <Route path="*" element={<h1>Not Found</h1>} />
           </Routes>
-        </BrowserRouter>
+        </ HashRouter>
       </div>
     </div>
   );
