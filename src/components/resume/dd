@@ -1,0 +1,135 @@
+  {/* Backend Development and Databases */}
+      <div className="w-full lg:w-1/2">
+        <div className="flex flex-col gap-4 py-12 font-titleFont">
+          <h2 className="text-3xl font-bold md:text-4xl">
+            Backend Development
+          </h2>
+        </div>
+        <div className="flex flex-col gap-6">
+          <div className="overflow-x-hidden">
+            <p className="text-sm font-medium uppercase">Node.js</p>
+            <span className="inline-flex w-full h-2 mt-2 rounded-md bgOpacity">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="relative w-full h-full rounded-md bg-gradient-to-r from-blue-600 via-pink-500 to-red-500"
+              >
+                <span className="absolute right-0 -top-7">100%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p className="text-sm font-medium uppercase">Express.js</p>
+            <span className="inline-flex w-full h-2 mt-2 rounded-md bgOpacity">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="relative w-full h-full rounded-md bg-gradient-to-r from-blue-600 via-pink-500 to-red-500"
+              >
+                <span className="absolute right-0 -top-7">100%</span>
+              </motion.span>
+            </span>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-4 py-12 font-titleFont">
+          <h2 className="text-3xl font-bold md:text-4xl">Databases</h2>
+        </div>
+        <div className="flex flex-col gap-6">
+          <div className="overflow-x-hidden">
+            <p className="text-sm font-medium uppercase">MongoDB</p>
+            <span className="inline-flex w-full h-2 mt-2 rounded-md bgOpacity">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="relative w-full h-full rounded-md bg-gradient-to-r from-blue-600 via-pink-500 to-red-500"
+              >
+                <span className="absolute right-0 -top-7">100%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p className="text-sm font-medium uppercase">MySQL</p>
+            <span className="inline-flex w-full h-2 mt-2 rounded-md bgOpacity">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="relative w-full h-full rounded-md bg-gradient-to-r from-blue-600 via-pink-500 to-red-500"
+              >
+                <span className="absolute right-0 -top-7">100%</span>
+              </motion.span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile Development and AI/ML */}
+      <div className="w-full lg:w-1/2 mt-100">
+        <div className="flex flex-col gap-4 py-12 font-titleFont">
+          <h2 className="text-3xl font-bold md:text-4xl">Mobile Development</h2>
+        </div>
+        <div className="flex flex-col gap-6">
+          <div className="overflow-x-hidden">
+            <p className="text-sm font-medium uppercase">React Native</p>
+            <span className="inline-flex w-full h-2 mt-2 rounded-md bgOpacity">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="relative w-full h-full rounded-md bg-gradient-to-r from-blue-600 via-pink-500 to-red-500"
+              >
+                <span className="absolute right-0 -top-7">100%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p className="text-sm font-medium uppercase">Flutter</p>
+            <span className="inline-flex w-full h-2 mt-2 rounded-md bgOpacity">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="relative w-full h-full rounded-md bg-gradient-to-r from-blue-600 via-pink-500 to-red-500"
+              >
+                <span className="absolute right-0 -top-7">100%</span>
+              </motion.span>
+            </span>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-4 py-12 font-titleFont">
+          <h2 className="text-3xl font-bold md:text-4xl">Machine Learning</h2>
+        </div>
+        <div className="flex flex-col gap-6">
+          <div className="overflow-x-hidden">
+            <p className="text-sm font-medium uppercase">TensorFlow</p>
+            <span className="inline-flex w-full h-2 mt-2 rounded-md bgOpacity">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="relative w-full h-full rounded-md bg-gradient-to-r from-blue-600 via-pink-500 to-red-500"
+              >
+                <span className="absolute right-0 -top-7">100%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p className="text-sm font-medium uppercase">PyTorch</p>
+            <span className="inline-flex w-full h-2 mt-2 rounded-md bgOpacity">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="relative w-full h-full rounded-md bg-gradient-to-r from-blue-600 via-pink-500 to-red-500"
+              >
+                <span className="absolute right-0 -top-7">100%</span>
+              </motion.span>
+            </span>
+          </div>
+        </div>
+      </div>
