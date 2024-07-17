@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/deploy-portfolio/static/css/main.2bf2942c.css",
-    "main.js": "/deploy-portfolio/static/js/main.377260e2.js",
+    "main.js": "/deploy-portfolio/static/js/main.05496a55.js",
     "static/media/mynew1.png": "/deploy-portfolio/static/media/mynew1.6f15bf143c0196b9d7e5.png",
     "static/media/5.png": "/deploy-portfolio/static/media/5.9077d6b440e9d4918a37.png",
     "static/media/games.png": "/deploy-portfolio/static/media/games.0331300c65bfe5afd953.png",
@@ -18,7 +18,7 @@
     "static/media/2.png": "/deploy-portfolio/static/media/2.f8b5e0ce749e6652453a.png",
     "static/media/6.png": "/deploy-portfolio/static/media/6.5accc2a89a3dbb7fb64f.png",
     "static/media/angular.png": "/deploy-portfolio/static/media/angular.647ff6a54cef8e877b35.png",
-    "static/media/CV_Jalitha_Kheminda.pdf": "/deploy-portfolio/static/media/CV_Jalitha_Kheminda.171aec0177884571c645.pdf",
+    "static/media/CV_Jalitha_Kheminda.pdf": "/deploy-portfolio/static/media/CV_Jalitha_Kheminda.e26ac46d2c8db5165300.pdf",
     "static/media/ml.png": "/deploy-portfolio/static/media/ml.834246262603980f14c9.png",
     "static/media/4.png": "/deploy-portfolio/static/media/4.e35f5e70ca9497921f0c.png",
     "static/media/8.png": "/deploy-portfolio/static/media/8.fb055cc8b6b367910da5.png",
@@ -55,10 +55,10 @@
     "static/media/slick.woff": "/deploy-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/deploy-portfolio/index.html",
     "main.2bf2942c.css.map": "/deploy-portfolio/static/css/main.2bf2942c.css.map",
-    "main.377260e2.js.map": "/deploy-portfolio/static/js/main.377260e2.js.map"
+    "main.05496a55.js.map": "/deploy-portfolio/static/js/main.05496a55.js.map"
   },
   "entrypoints": [
     "static/css/main.2bf2942c.css",
-    "static/js/main.377260e2.js"
+    "static/js/main.05496a55.js"
   ]
 }
