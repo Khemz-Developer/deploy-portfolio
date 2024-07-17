@@ -398,6 +398,7 @@ const Skills = () => {
         <hr></hr>
       </div>
 
+      
       <div>
         <motion.div
           initial={{ opacity: 0 }}
@@ -405,6 +406,72 @@ const Skills = () => {
           transition={{ duration: 0.5 }}
           className="flex flex-col w-full gap-10 lg:flex-row lg:gap-20"
         >
+          <div className="w-full lg:w-1/2">
+            <div className="flex flex-col gap-4 py-12 font-titleFont">
+              <h2 className="text-2xl font-bold md:text-3xl">
+               Skills Regarding DevOps -
+             <h4 className="text-lg"> Basic Knowledge of Tools and Technologies Used in DevOps</h4>
+              </h2>
+            </div>
+            <div className="flex flex-col gap-6">
+              <div className="overflow-x-hidden">
+                <p className="text-sm font-medium uppercase">Containerization: Docker</p>
+                {/* <span className="inline-flex w-full h-2 mt-2 rounded-md bgOpacity">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="relative w-full h-full rounded-md bg-gradient-to-r from-blue-600 via-pink-500 to-red-500"
+              >
+                <span className="absolute right-0 -top-7">80%</span>
+              </motion.span>
+            </span> */}
+              </div>
+              <div className="overflow-x-hidden">
+                <p className="text-sm font-medium uppercase">Orchestration: Kubernetes</p>
+                {/* <span className="inline-flex w-full h-2 mt-2 rounded-md bgOpacity">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="relative w-full h-full rounded-md bg-gradient-to-r from-blue-600 via-pink-500 to-red-500"
+              >
+                <span className="absolute right-0 -top-7">60%</span>
+              </motion.span>
+            </span> */}
+              </div>
+              <div className="overflow-x-hidden">
+                <p className="text-sm font-medium uppercase"> Continuous Integration/Continuous Deployment  (CI/CD): Jenkins , Github Action
+                </p>
+                {/* <span className="inline-flex w-full h-2 mt-2 rounded-md bgOpacity">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="relative w-full h-full rounded-md bg-gradient-to-r from-blue-600 via-pink-500 to-red-500"
+              >
+                <span className="absolute right-0 -top-7">60%</span>
+              </motion.span>
+            </span> */}
+              </div>
+              <div className="overflow-x-hidden">
+                <p className="text-sm font-medium uppercase">Configuration Management: Ansible
+                </p>
+                {/* <span className="inline-flex w-full h-2 mt-2 rounded-md bgOpacity">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="relative w-full h-full rounded-md bg-gradient-to-r from-blue-600 via-pink-500 to-red-500"
+              >
+                <span className="absolute right-0 -top-7">60%</span>
+              </motion.span>
+            </span> */}
+              </div>
+              
+            </div>
+          </div>
+
           <div className="w-full lg:w-1/2">
             <div className="flex flex-col gap-4 py-12 font-titleFont">
               <h2 className="text-3xl font-bold md:text-3xl">
